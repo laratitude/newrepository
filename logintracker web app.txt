@@ -1,0 +1,29 @@
+Login tracker setup
+
+/login-tracker/
+│
+├── server/
+│   ├── models/
+│   │   ├── User.js
+│   │   └── ActivityLog.js
+│   ├── routes/
+│   │   ├── auth.js
+│   │   └── activity.js
+│   ├── config/
+│   │   └── db.js
+│   └── server.js
+│
+├── client/
+│   ├── public/
+│   │   ├── index.html
+│   │   └── styles.css
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Login.js
+│   │   │   ├── Register.js
+│   │   │   └── Dashboard.js
+│   │   └── App.js
+│   └── package.json
+│
+├── package.json
+└── README.md
